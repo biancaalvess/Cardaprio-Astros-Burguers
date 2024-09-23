@@ -1,0 +1,30 @@
+/* Reset para remover margens e espaçamentos padrôes */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Geral do corpo da Page */
+body{
+    font-family: Stencil Std, fantasy;
+    background-color: #2a1344;
+    color: #f4f4ff;
+    padding: 20px;
+}
+
+/* Cabeçalho */
+header{
+    background-color: #371d55;
+    color: #f4f4ff;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1{
+    font-size: 2.8em;
+    font-family: 'Lobster', cursive;
+    margin-bottom: 10px;
+    letter-spacing: 1.5px;
+}
