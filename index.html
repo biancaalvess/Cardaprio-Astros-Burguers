@@ -1,96 +1,106 @@
-=<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Astros Burguers</title>
-    <link rel="stylshet" href="style.css"> 
-    
+    <title>Astros Burguer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Cardápio Astros</h1>
+        <img src="img/page.png" alt="page" class="logo">
+        <h1>Astros Burguer</h1>
+        <p>Bem-vindo ao seu universo de gostosuras!</p>       
         <nav>
             <ul>
-                <li><a href="pratos-principais">Pratos Principais</a></li>
-                <li><a href="bebidas">Bebidas</a></li>
+                <li><a href="#lanches-principais">Hambúrgueres</a></li>
+                <li><a href="#bebidas">Bebidas</a></li>
                 <li><a href="#sobremesas">Sobremesas</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <!--Lanches Principais-->
-        <section id="lanches-principais">
+        <section id="lanches-principais" class="fade-in-section">
             <h2>Hambúrgueres</h2>
-            <div class="cardapio-item">
-                <h3>Leão Burguer</h3>
-                <p>Pão Brioche,Blend 250g, Bacon Picado, Cream Cheese, Molho Cheedar, Cebola Caramelizada e Cupim Desfiado.</p>
-                <span class="preco">R$ 24,99</span>
-                <img src="img/lanche1.webp" alt="leao-burguer"> 
-            </div>
-            <div id="cardapio-item">
-                <h3>Áries Burguer</h3>
-                <p>Pão Brioche, Blend 250g de Pichanha, Mussarela, Molho da Casa, Pepperoni e Cebola Picada. </p>
-                <span class="preco">R$ 29,99</span>
-                <img src="img/lanche2.jpg" alt="aries-burguer">
-            </div>
-            <div id="cardapio-item">
-                <h3>Gemêos Burguer</h3>
-                <p>Pão Americano, Dois Blends 250g, Cupim Desfiado na Chapa, Cream Cheese, Queijo Cheedar e Molho da Casa.</p>
-                <span class="preco">R$ 31,99</span>
-                <img src="img/lanche3.jpg" alt="gemeos-burguer">
-            </div>
-            <div id="cardapio-item">
-                <h3>Capricórnio</h3>
-                <p>Pão Americano, Blend 300g, Cebola Caramelizada, Charque Desfiado, Cream Cheese, Molho Cheedar e Vinagrete.</p>
-                <span class="preco">R$ 34,99</span>
-                ,<img src="img/lanche4.jpg" alt="capri-burguer">
+            <div class="cardapio-wrapper">
+                <div class="cardapio-item">
+                    <h3>Leão Burguer</h3>
+                    <p>Pão Brioche, Blend 250g, Bacon Picado, Cream Cheese, Molho Cheddar, Cebola Caramelizada e Cupim Desfiado.</p>
+                    <span class="preco">R$ 24,99</span>
+                    <img src="img/lanche1.webp" alt="leao-burguer">
+                </div>
+                <div class="cardapio-item">
+                    <h3>Áries Burguer</h3>
+                    <p>Pão Brioche, Blend 250g de Pichanha, Mussarela, Molho da Casa, Pepperoni e Cebola Picada.</p>
+                    <span class="preco">R$ 29,99</span>
+                    <img src="img/lanche2.jpg" alt="aries-burguer">
+                </div>
+                <div class="cardapio-item">
+                    <h3>Gemêos Burguer</h3>
+                    <p>Pão Americano, Dois Blends 250g, Cupim Desfiado na Chapa, Cream Cheese, Queijo Cheddar e Molho da Casa.</p>
+                    <span class="preco">R$ 31,99</span>
+                    <img src="img/lanche3.jpg" alt="gemeos-burguer">
+                </div>
+                <div class="cardapio-item">
+                    <h3>Capricórnio</h3>
+                    <p>Pão Americano, Blend 300g, Cebola Caramelizada, Charque Desfiado, Cream Cheese, Molho Cheddar e Vinagrete.</p>
+                    <span class="preco">R$ 34,99</span>
+                    <img src="img/lanche4.jpg" alt="capri-burguer">
+                </div>
             </div>
         </section>
 
-        <!--Bebidas-->
-        <section id="bebidas">
-            <div class="bebidas-principais">
-                <h3>Coca Cola (Lata)</h3>
-                <p>Sem Açucar e Tradicional</p>
-                <span class="preco">R$ 4,00</span>
-            </div>
-            <div class="bebidas-principais">
-                <h3>Guaraná (Lata)</h3>
-                <p>Sem Açucar e Tradicional</p>
-                <span class="preco">R$ 3,00</span>
-            </div>
-            <div class="bebidas-principais":>
-                <h3>Fanta (Lata)</h3>
-                <p>Uva e Laranja</p>
-                <span class="preco">R$ 3,00</span>
-            </div>
-            <div class="bebidas-principais">
-                <h3>Sucos - Jarra</h3>
-                <p>Laranja, Cacau, Morango, Abacaxi, Limão, Melancia, Maracujá e Maçã.</p>
-                <span class="preco"> R$ 7,00</span>
-                <img src="img/suco.jpg" alt="sucos">
+        <section id="bebidas" class="fade-in-section">
+            <h2>Bebidas</h2>
+            <div class="cardapio-wrapper">
+                <div class="cardapio-item">
+                    <h3>Coca Cola (Lata)</h3>
+                    <p>Sem Açucar e Tradicional</p>
+                    <span class="preco">R$ 4,00</span>
+                </div>
+                <div class="cardapio-item">
+                    <h3>Guaraná (Lata)</h3>
+                    <p>Sem Açucar e Tradicional</p>
+                    <span class="preco">R$ 3,00</span>
+                </div>
+                <div class="cardapio-item">
+                    <h3>Fanta (Lata)</h3>
+                    <p>Uva e Laranja</p>
+                    <span class="preco">R$ 3,00</span>
+                </div>
+                <div class="cardapio-item">
+                    <h3>Sucos - Jarra</h3>
+                    <p>Laranja, Cacau, Morango, Abacaxi, Limão, Melancia, Maracujá e Maçã.</p>
+                    <span class="preco"> R$ 7,00</span>
+                    <img src="img/suco.jpg" alt="sucos">
+                </div>
             </div>
         </section>
-        <section id="sobremesas">
-            <div class="sobremesas-principais">
-                <h3>Docinhos</h3>
-                <p>Brigadeiro, Bem casado, Oréo, Beijinho, Churros e Pudim.</p>
-                <span class="preco">R$ 5,00</span>
-            </div>
-            <div class="sobremesas-principais">
-                <h3>Fatia de Bolo</h3>
-                <p>Dois Amores, Chocolate, Morango, Ninho com Morango e Churros.</p>
-                <span class="preco">R$ 7,00</span>
-            </div>
-            <div class="sobremesas-principais">
-                <h3>Taça Gelada</h3>
-                <p> Acompanha uma taça de 50ml com sorvete de creme, Nutella, Creme de Ninho, Gotas de Chocolate e Morango.</p>
-                <span class="preco">R$ 9,99</span>
+
+        <section id="sobremesas" class="fade-in-section">
+            <h2>Sobremesas</h2>
+            <div class="cardapio-wrapper">
+                <div class="cardapio-item">
+                    <h3>Docinhos</h3>
+                    <p>Brigadeiro, Bem casado, Oréo, Beijinho, Churros e Pudim.</p>
+                    <span class="preco">R$ 5,00</span>
+                </div>
+                <div class="cardapio-item">
+                    <h3>Fatia de Bolo</h3>
+                    <p>Dois Amores, Chocolate, Morango, Ninho com Morango e Churros.</p>
+                    <span class="preco">R$ 7,00</span>
+                </div>
+                <div class="cardapio-item">
+                    <h3>Taça Gelada</h3>
+                    <p>Acompanha uma taça de 50ml com sorvete de creme, Nutella, Creme de Ninho, Gotas de Chocolate e Morango.</p>
+                    <span class="preco">R$ 9,99</span>
+                </div>
             </div>
         </section>
     </main>
+
     <footer>
         <p>&copy; 2024 - Astros Burgueres</p>
     </footer>
