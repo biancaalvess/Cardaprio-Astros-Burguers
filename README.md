@@ -28,6 +28,7 @@ O site oferece uma interface interativa que permite aos usuários explorar difer
 
 ![Veja](img/astross.png) 
 
+Veja também em:https://astrosburg.netlify.app/
 
 ## Contribuições
 
