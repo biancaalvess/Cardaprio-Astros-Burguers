@@ -29,6 +29,6 @@ Para visualizar o cardápio, basta abrir o arquivo `index.html` em qualquer nave
 
 Contribuições são bem-vindas! Se você deseja melhorar o projeto ou adicionar novas funcionalidades, sinta-se à vontade para abrir um Pull Request.
 
----
+## Visualização
 
-**Nota**: Esta é uma versão de exemplo do `README.md`. Sinta-se à vontade para adicionar mais informações ou alterar conforme necessário.
+link:https://astrosburg.netlify.app/
