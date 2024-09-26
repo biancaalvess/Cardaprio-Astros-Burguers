@@ -1,6 +1,6 @@
 # Cardápio Astros Burgers
 
-Bem-vindo ao repositório do projeto **Cardápio Astros Burgers**! Este projeto é uma aplicação web simples para a visualização de um cardápio de hamburgueria, com detalhes sobre cada item e preços.
+Bem-vindo ao repositório do projeto Cardápio Astros Burgers! Este projeto é uma aplicação web simples para a visualização de um cardápio de hamburgueria, com detalhes sobre cada item e preços.
 
 ## Sobre o Projeto
 
