@@ -31,4 +31,6 @@ Contribuições são bem-vindas! Se você deseja melhorar o projeto ou adicionar
 
 ## Visualização
 
+![Veja](img/astross.png) 
+
 link:https://astrosburg.netlify.app/
